@@ -210,11 +210,7 @@
   display: none;
 }
 
-/* .content {
-  display: flex;
-  
-align-items: center;
-} */
+
 
 #Home .content {
   display: flex;
@@ -698,22 +694,14 @@ div.background-style:nth-child(2) {
   border-radius: 10px 0 0 0;
 }
 
-main {
+#about-page main {
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
 }
 
-/* div.user {
-  width: 90%;
-  height: 90%;
-  background-color: transparent;
-  position: absolute;
-  z-index: 1;
-  margin-top: 40px;
-  padding: 10px;
-} */
+
 
 div.user-container {
   width: 100%;
@@ -893,10 +881,7 @@ margin-top: 10px;
   color: var(--color-gray);
 }
 
-/* .userAbility-abilityBox .progress, .userAbility-abilityValue {
-  width: 100%;
-  height: 10px;
-} */
+
 
 .progress-bar {
   background-color: #fbaa33 !important;
