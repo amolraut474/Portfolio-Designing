@@ -358,6 +358,18 @@
   position: relative;
   text-decoration: none;
 }
+.download-btn{
+  padding: 30px 0px;
+}
+.download-btn .btn-about::after {
+  left: 218px !important;
+}
+.down-section {
+  background: #f4f6fa;
+}
+#about-page .about-resume {
+  padding-bottom: 0px !important;
+}
 
 a.btn-about::after {
   position: absolute;
@@ -690,7 +702,7 @@ div.background-style:nth-child(1) {
 
 div.background-style:nth-child(2) {
   right: 0;
-  bottom: -0;
+  bottom: -96px;
   border-radius: 10px 0 0 0;
 }
 
@@ -928,6 +940,9 @@ margin-top: 10px;
   margin: 10px 0px 0px 0px;
 
 
+}
+.content .text-content {
+  width: 100%;
 }
 
 }
