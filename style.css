@@ -900,6 +900,7 @@ margin-top: 10px;
   .userAbility-leftSide, .userAbility-rightSide {
       width: 100% !important;
       margin: 10px 0;
+      
   }
   .background-style{
     display: none;
@@ -916,6 +917,19 @@ margin-top: 10px;
   img.userInfo-image {
     margin: 0 auto;
   }
+  .user-container .row {
+    margin: 0;
+}
+.about-resume {
+  padding: 35px 0px;
+}
+.userMain-userInfoBox {
+  display: block;
+  margin: 10px 0px 0px 0px;
+
+
+}
+
 }
 
 
@@ -1389,6 +1403,7 @@ main{
 }
 .sidebar{
   max-width: 23%;
+  margin-left: 40px !important;
 }
 
 @media (max-width:1050px){
@@ -1406,7 +1421,11 @@ main{
   }
   
 }
-
+@media (max-width:425px){
+.sidebar {
+  margin-left: 0px !important;
+}
+}
 
 /* articles */
 .article-featured {
